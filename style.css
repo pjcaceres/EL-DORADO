@@ -375,8 +375,9 @@ section{ padding:5.5rem 0; }
 
 .contacto-map{
   background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14);
-  border-radius:var(--radius); padding:1.2rem;
+  border-radius:var(--radius); padding:.9rem;
 }
+.contacto-map iframe{ display:block; width:100%; filter:saturate(.9) contrast(1.02); }
 .contacto-map p{ font-size:.78rem; color:rgba(255,255,255,.55); margin-top:.9rem; line-height:1.5; }
 
 /* =============== FOOTER =============== */

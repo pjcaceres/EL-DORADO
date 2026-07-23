@@ -335,14 +335,14 @@
         <a class="btn btn-yellow" href="https://wa.me/59899123456?text=Hola%20El%20Dorado" target="_blank" rel="noopener">Escribir por WhatsApp</a>
         <p class="copy-toast" id="copyToast" aria-live="polite"></p>
       </div>
-      <div class="contacto-map" aria-hidden="true">
-        <svg viewBox="0 0 300 220">
-          <rect width="300" height="220" rx="14" fill="#0F281F"/>
-          <path d="M0 150 L60 130 L110 160 L170 120 L220 150 L300 110" stroke="#E7B23C" stroke-width="3" fill="none" opacity=".5"/>
-          <circle cx="170" cy="120" r="7" fill="#E7B23C"/>
-          <circle cx="170" cy="120" r="14" fill="none" stroke="#E7B23C" stroke-width="2" opacity=".5"/>
-        </svg>
-        <p>Insertá aquí tu mapa embebido (Google Maps → Compartir → Insertar HTML) apuntando a tu sucursal principal.</p>
+      <div class="contacto-map">
+        <iframe
+          src="https://www.google.com/maps?q=Plaza%20San%20Fernando%2C%20Maldonado%2C%20Uruguay&output=embed"
+          width="100%" height="260" style="border:0; border-radius:10px;"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación de El Dorado en Maldonado">
+        </iframe>
+        <p>Reemplazá este mapa por la ubicación exacta de tu sucursal: en Google Maps buscá tu local → "Compartir" → "Insertar un mapa" → copiá el código y pegalo en lugar de este iframe.</p>
       </div>
     </div>
   </section>
