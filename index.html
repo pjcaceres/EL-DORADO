@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supermercados El Dorado — Frescura de siempre, a un mensaje de distancia</title>
+<meta name="description" content="Supermercados El Dorado: ofertas de la semana, todas las categorías y delivery pidiendo por WhatsApp o teléfono.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,600&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-row">
+    <a href="#inicio" class="logo" aria-label="El Dorado, inicio">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <g class="sun-rays">
+            <line x1="32" y1="2" x2="32" y2="12"/>
+            <line x1="32" y1="52" x2="32" y2="62"/>
+            <line x1="2" y1="32" x2="12" y2="32"/>
+            <line x1="52" y1="32" x2="62" y2="32"/>
+            <line x1="10" y1="10" x2="17" y2="17"/>
+            <line x1="47" y1="47" x2="54" y2="54"/>
+            <line x1="54" y1="10" x2="47" y2="17"/>
+            <line x1="17" y1="47" x2="10" y2="54"/>
+          </g>
+          <circle cx="32" cy="32" r="17" class="sun-body"/>
+          <text x="32" y="38" class="sun-letters" text-anchor="middle">ED</text>
+        </svg>
+      </span>
+      <span class="logo-text">El Dorado<em>supermercados</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#ofertas">Ofertas</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#sucursales">Sucursales</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+59899123456" class="phone-pill" id="headerPhone">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+        <span>099 123 456</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-sunburst" aria-hidden="true">
+      <svg viewBox="0 0 800 800">
+        <g class="hero-rays" id="heroRays"></g>
+      </svg>
+    </div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Tu barrio, tu almacén de confianza</p>
+      <h1>Todo lo fresco de <em>hoy</em>,<br>directo a tu puerta.</h1>
+      <p class="hero-lead">Frutas, verduras, carnicería, almacén y limpieza al precio de siempre. Elegís, nos escribís y te lo llevamos a casa el mismo día.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/59899123456?text=Hola%20El%20Dorado%2C%20quiero%20hacer%20un%20pedido" class="btn btn-gold" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.1.1-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.5-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
+          Pedir por WhatsApp
+        </a>
+        <a href="#ofertas" class="btn btn-ghost">Ver ofertas de la semana</a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong>+30</strong><span>años en el barrio</span></li>
+        <li><strong>Hoy</strong><span>entregas en el día</span></li>
+        <li><strong>0</strong><span>costo mínimo de compra*</span></li>
+      </ul>
+      <p class="hero-note">*Consultá condiciones de envío por sucursal.</p>
+    </div>
+  </section>
+
+  <!-- ============ OFERTAS ============ -->
+  <section class="ofertas" id="ofertas">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Precios de la semana</p>
+        <h2>Ofertas destacadas</h2>
+        <p>Cambian todos los jueves. Tocá "Pedir" en cualquier producto y armamos tu pedido por WhatsApp.</p>
+      </div>
+
+      <div class="tags-grid" id="tagsGrid">
+
+        <article class="price-tag" data-product="Manzanas rojas">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M32 10c1-4 5-6 8-5-1 3-3 5-6 6" fill="none" stroke="#4C7A3D" stroke-width="3" stroke-linecap="round"/><path d="M32 14c11 0 19 9 19 21 0 12-9 19-19 19S13 47 13 35c0-12 8-21 19-21z" fill="#D1442C"/><path d="M22 27c1-4 5-6 8-4" fill="none" stroke="#F4C97A" stroke-width="2.5" stroke-linecap="round" opacity=".7"/></svg>
+          </span>
+          <h3>Manzanas rojas</h3>
+          <p class="tag-unit">bolsa x 1 kg</p>
+          <p class="tag-price"><span class="old">$95</span>$69</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Zanahoria">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M30 8c3 2 3 8 0 9-3-1-3-7 0-9z" fill="#4C7A3D"/><path d="M36 9c2 3 1 8-2 9-2-2-1-7 2-9z" fill="#4C7A3D"/><path d="M25 10c3 1 4 6 2 8-3 0-4-5-2-8z" fill="#4C7A3D"/><path d="M27 18c6-2 12 3 10 12-2 9-9 21-11 24-2-3-9-15-11-24-2-9 6-14 12-12z" fill="#E58A2A"/></svg>
+          </span>
+          <h3>Zanahoria</h3>
+          <p class="tag-unit">kg</p>
+          <p class="tag-price">$49</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Pan francés">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M10 34c0-12 10-22 22-22s22 10 22 22-9 20-22 20-22-8-22-20z" fill="#C9931F"/><path d="M18 32c2-8 8-13 14-13" fill="none" stroke="#8A5A16" stroke-width="2.5" stroke-linecap="round" opacity=".5"/></svg>
+          </span>
+          <h3>Pan francés</h3>
+          <p class="tag-unit">unidad</p>
+          <p class="tag-price">$8</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Leche entera">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M25 8h14v8l4 6v30a4 4 0 0 1-4 4H25a4 4 0 0 1-4-4V22l4-6V8z" fill="#F4EEDD" stroke="#2E4A3D" stroke-width="2.5"/><rect x="24" y="30" width="16" height="7" fill="#2E4A3D"/></svg>
+          </span>
+          <h3>Leche entera</h3>
+          <p class="tag-unit">sachet 1 L</p>
+          <p class="tag-price">$59</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag featured" data-product="Bola de lomo">
+          <span class="tag-hole"></span>
+          <span class="ribbon">Oferta</span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M14 30c0-10 9-18 20-18s20 8 20 18-9 22-20 22-20-12-20-22z" fill="#C1442E"/><path d="M14 30c0-10 9-18 20-18" fill="none" stroke="#8f3220" stroke-width="2" opacity=".5"/><circle cx="24" cy="26" r="3" fill="#F4EEDD" opacity=".8"/><circle cx="34" cy="34" r="2.5" fill="#F4EEDD" opacity=".8"/></svg>
+          </span>
+          <h3>Bola de lomo</h3>
+          <p class="tag-unit">kg</p>
+          <p class="tag-price"><span class="old">$429</span>$349</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Agua saborizada">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M26 6h12v8l3 4v34a4 4 0 0 1-4 4H27a4 4 0 0 1-4-4V18l3-4V6z" fill="#7FB0C9" opacity=".9"/><rect x="23" y="30" width="18" height="10" fill="#F4C97A"/></svg>
+          </span>
+          <h3>Agua saborizada</h3>
+          <p class="tag-unit">1.5 L</p>
+          <p class="tag-price">$65</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Detergente">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M22 14h14l3 6v34a3 3 0 0 1-3 3H22a3 3 0 0 1-3-3V20l3-6z" fill="#5B8FD9"/><rect x="21" y="10" width="16" height="6" rx="2" fill="#2E4A3D"/><rect x="19" y="30" width="20" height="8" fill="#F4EEDD"/></svg>
+          </span>
+          <h3>Detergente</h3>
+          <p class="tag-unit">750 ml</p>
+          <p class="tag-price">$119</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+        <article class="price-tag" data-product="Café molido">
+          <span class="tag-hole"></span>
+          <span class="tag-icon">
+            <svg viewBox="0 0 64 64"><path d="M14 26h30v14a12 12 0 0 1-12 12H26a12 12 0 0 1-12-12V26z" fill="#6B4226"/><path d="M44 30h4a6 6 0 0 1 0 12h-4" fill="none" stroke="#6B4226" stroke-width="4"/><path d="M22 18c1-3 4-4 4-7M30 18c1-3 4-4 4-7" fill="none" stroke="#C9931F" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Café molido</h3>
+          <p class="tag-unit">500 g</p>
+          <p class="tag-price">$189</p>
+          <button class="tag-order" type="button">Pedir</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIAS ============ -->
+  <section class="categorias dark-block" id="categorias">
+    <div class="wrap">
+      <div class="section-head light">
+        <p class="eyebrow">Un poco de todo</p>
+        <h2>Recorré las categorías</h2>
+        <p>Contanos qué categoría te interesa y te pasamos la lista completa de productos y precios por WhatsApp.</p>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Frutas%20y%20verduras" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M32 14c11 0 19 9 19 21 0 12-9 19-19 19S13 47 13 35c0-12 8-21 19-21z" fill="#D1442C"/><path d="M32 10c1-4 5-6 8-5-1 3-3 5-6 6" fill="none" stroke="#4C7A3D" stroke-width="3" stroke-linecap="round"/></svg>
+          <span>Frutas y verduras</span>
+        </a>
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Carnicer%C3%ADa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M14 30c0-10 9-18 20-18s20 8 20 18-9 22-20 22-20-12-20-22z" fill="#C1442E"/></svg>
+          <span>Carnicería</span>
+        </a>
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Almac%C3%A9n" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M8 20l24-10 24 10-24 10L8 20z" fill="#E7B23C"/><path d="M8 20v24l24 10V30L8 20z" fill="#C9931F"/><path d="M56 20v24L32 54V30l24-10z" fill="#B37F19"/></svg>
+          <span>Almacén</span>
+        </a>
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Bebidas" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M26 6h12v8l3 4v34a4 4 0 0 1-4 4H27a4 4 0 0 1-4-4V18l3-4V6z" fill="#7FB0C9"/><rect x="23" y="30" width="18" height="10" fill="#F4C97A"/></svg>
+          <span>Bebidas</span>
+        </a>
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Panader%C3%ADa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M10 34c0-12 10-22 22-22s22 10 22 22-9 20-22 20-22-8-22-20z" fill="#C9931F"/></svg>
+          <span>Panadería</span>
+        </a>
+        <a class="cat-card" href="https://wa.me/59899123456?text=Hola%2C%20quiero%20la%20lista%20de%20Limpieza" target="_blank" rel="noopener">
+          <svg viewBox="0 0 64 64"><path d="M22 14h14l3 6v34a3 3 0 0 1-3 3H22a3 3 0 0 1-3-3V20l3-6z" fill="#5B8FD9"/><rect x="21" y="10" width="16" height="6" rx="2" fill="#2E4A3D"/></svg>
+          <span>Limpieza</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DELIVERY ============ -->
+  <section class="delivery" id="delivery">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Cómo pedir</p>
+        <h2>De las góndolas a tu mesa, en tres pasos</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="step-num">01</span>
+          <h3>Elegís tus productos</h3>
+          <p>Mirá las ofertas y categorías de la página, o pedinos la lista completa del día.</p>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <h3>Nos escribís o llamás</h3>
+          <p>Por WhatsApp o teléfono nos contás qué necesitás y te confirmamos precio final y horario.</p>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <h3>Lo recibís en casa</h3>
+          <p>Coordinamos el delivery el mismo día dentro de la zona de reparto de tu sucursal.</p>
+        </li>
+      </ol>
+      <div class="delivery-cta">
+        <a href="https://wa.me/59899123456?text=Hola%20El%20Dorado%2C%20quiero%20hacer%20un%20pedido%20para%20delivery" class="btn btn-dark" target="_blank" rel="noopener">Iniciar pedido por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SUCURSALES ============ -->
+  <section class="sucursales" id="sucursales">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Dónde estamos</p>
+        <h2>Nuestras sucursales</h2>
+        <p>Reemplazá estos datos por las direcciones, horarios y teléfonos reales de cada local.</p>
+      </div>
+      <div class="branch-grid">
+        <article class="branch-card">
+          <h3>El Dorado Centro</h3>
+          <p>Av. Principal 1234, esq. Sarandí</p>
+          <p>Lun a sáb: 8:00–21:00 · Dom: 9:00–14:00</p>
+          <a href="tel:+59899123456">099 123 456</a>
+        </article>
+        <article class="branch-card">
+          <h3>El Dorado Costa</h3>
+          <p>Rambla 456, frente a la plaza</p>
+          <p>Lun a dom: 8:00–22:00</p>
+          <a href="tel:+59899123457">099 123 457</a>
+        </article>
+        <article class="branch-card">
+          <h3>El Dorado Norte</h3>
+          <p>Bulevar Artigas 789</p>
+          <p>Lun a sáb: 8:30–20:30</p>
+          <a href="tel:+59899123458">099 123 458</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="contacto dark-block" id="contacto">
+    <div class="wrap contacto-grid">
+      <div>
+        <p class="eyebrow">Hablemos</p>
+        <h2>¿Hacemos tu pedido?</h2>
+        <p class="contacto-lead">Escribinos por WhatsApp o llamanos directo. Un asesor te confirma precios, stock y el horario de entrega.</p>
+        <button class="phone-big" id="phoneBig" data-phone="099 123 456">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+          099 123 456
+        </button>
+        <a class="btn btn-gold" href="https://wa.me/59899123456?text=Hola%20El%20Dorado" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <p class="copy-toast" id="copyToast" aria-live="polite"></p>
+      </div>
+      <div class="contacto-map" aria-hidden="true">
+        <svg viewBox="0 0 300 220">
+          <rect width="300" height="220" rx="14" fill="#0F281F"/>
+          <path d="M0 150 L60 130 L110 160 L170 120 L220 150 L300 110" stroke="#E7B23C" stroke-width="3" fill="none" opacity=".5"/>
+          <circle cx="170" cy="120" r="7" fill="#E7B23C"/>
+          <circle cx="170" cy="120" r="14" fill="none" stroke="#E7B23C" stroke-width="2" opacity=".5"/>
+        </svg>
+        <p>Insertá aquí tu mapa embebido (Google Maps → Compartir → Insertar HTML) apuntando a tu sucursal principal.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>© <span id="year"></span> Supermercados El Dorado</span>
+    <span>Página informativa — el pedido y el pago se coordinan por WhatsApp o teléfono.</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/59899123456?text=Hola%20El%20Dorado%2C%20quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.1.1-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.5-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
